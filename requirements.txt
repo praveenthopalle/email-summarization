@@ -1,0 +1,9 @@
+# Core Libraries
+torch               # PyTorch for running BART model
+transformers        # Hugging Face Transformers library
+sentencepiece       # Required for tokenization
+pandas             # For handling CSV files
+
+# Optimization Libraries
+optimum            # ONNX optimization for faster CPU inference
+onnxruntime        # ONNX runtime for model acceleration
