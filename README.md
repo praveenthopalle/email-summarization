@@ -17,4 +17,11 @@ This project processes email data from a CSV file, cleans the email body, summar
 ### 1️⃣ **Clone the Repository**
 ```bash
 git clone https://github.com/your-username/email_summarizer.git
-cd email_summarizer
+cd email_summarization
+
+python -m venv email-summrization
+source email-summrization/bin/activate
+
+pip install -r requirements.txt
+
+python summarizer.py
